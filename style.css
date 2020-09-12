@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(
+	https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.sign-up-form{
+	background:#fff;
+	text-align: center;
+	width: 513px;
+	padding: 20px;
+	margin: 90px auto 0px;
+	    border-radius: 20px;
+ 
+} 
+.sign-up-form h1{margin: 0px auto 20px;
+
+
+}
+.input-box{
+margin-bottom: 20px;
+border-radius: 05px;
+padding: 06px 108px;
+outline: none;
+border:1px solid black;
+} 
+.chk{
+	margin:0;
+	margin-bottom: 15px;
+	margin-right:160px;
+
+}
+.btn{
+	background: linear-gradient(45deg,#27dbe9,#e3e67d);
+	outline: none;
+	cursor: pointer;
+	padding: 5px 18px;
+	color: white;
+	border-radius: 05px;
+	border:1px solid black;
+	margin-bottom: 7px;
+	transition: 0.5s; 
+}
+.btn:hover{
+	color: black;
+	transform: scale(0.6);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.social-icon ul{
+	list-style-type: none;
+	margin-right: 58px;
+	font-size: 20px;
+}
+.social-icon ul li{
+	display: inline-block; 
+	margin-left: 10px;
+}
+.social-icon ul li{
+	height: 50px;
+    width: 50px;
+    background: lightgrey;;
+    border-radius: 100%;
+    line-height: 50px;
+    transition: 0.5s;
+    margin: 0px 22px;
+
+
+}
+.social-icon ul li:hover{
+		color: black;
+	transform: scale(0.6);
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+hr{
+	margin-top: 20px;
+	width: 80%;
+}
+.Or{
+	background: #fff;
+    width: 48px;
+    margin: -25px auto -10px;
+}
+.Second-page{
+	text-align: center;
+	margin-top: 30px;
+}
+.Second-page button a{
+	text-decoration: none;
+	    color: black;
+}
+.btn1{
+padding: 10px 14px;
+    margin-top: 15px;
+    border-radius: 12px;
+    outline: none;
+    background: lightgrey;
+    transition: 0.5s;
+    border: 1px solid black;}
+    .btn1:hover{
+    	transition: 0.5s;
+    	transform: scale(1.2);
+    	cursor: pointer;
+    }

@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://cdn.pixabay.com/photo/2018/09/03/23/56/sea-3652697_1280.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+a{
+	text-decoration: none;
+}
+.sign-up-form{
+	width: 465px;
+	background-image: url(https://cdn.pixabay.com/photo/2018/02/17/14/15/pattern-3160023_1280.jpg);
+		background-size: cover;
+	background-position: center;
+	text-align: center;
+	    margin: 8% auto;
+    padding: 5px 65px;
+    border-radius: 05px;
+}
+.input{
+	padding: 10px 156px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid black;
+        margin-bottom: 20px;
+}
+.first{
+	    margin: 0px;
+    margin-bottom: 16px;
+}
+.btn{
+	    padding: 07px 56px;
+    border-radius: 32px;
+    outline: none;
+    border: 01px solid black;
+    background: linear-gradient(45deg,#FA8BFF,#2BD2FF,#2BFF88);
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+	transform: scale(1.2);
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.list{
+	list-style-type: none;
+	    margin: 14px auto 34px -50px;
+}
+.list li{
+	display: inline-block;
+	display: inline-block;
+    background: aliceblue;;
+    width: 57px;
+    line-height: 57px;
+    border-radius: 100%;
+        margin: 0px 17px;
+        transition: 0.5s;
+}
+.list li:hover{
+	transform: scale(0.6);
+	transition: 0.5s;
+	color: white;
+	cursor: pointer;
+
+}
